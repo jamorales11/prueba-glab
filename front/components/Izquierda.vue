@@ -4,6 +4,9 @@
         <div class="row">
             <div class="col-9">
                 <div class="row">
+                    <Jumbotron />
+                </div>
+                <div class="row">
                     
                     <h1>Restaurants</h1>
                     <img id="iconoHamburguesa" :src="require(`../assets/icons/1046784.svg`)" width="30" height="30"  />
@@ -44,7 +47,7 @@
     #button{
         position: absolute;
         right: 30px;
-        top:10px;
+        top:430px;
         color: white;
         background-color: #F25922;
         border-radius: 20px;
