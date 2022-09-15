@@ -1,7 +1,9 @@
+import { Product } from "src/products/entities/product.entity";
+
 export class CreateOrderDto {
   address: string;
   time: string;
-  items: any[];
+  products: Product[];
   deliveryCost: number;
   total: number;
   personNumber: number;
